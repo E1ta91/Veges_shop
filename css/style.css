@@ -146,7 +146,6 @@ text-align: center;
 /* color: black; */
 padding-left: 150px;
 margin-top: 100px;
-gap: 20px;
 
 }
 
@@ -165,16 +164,147 @@ gap: 20px;
 .group3{
 grid-column: 2;
 grid-row: 1 / span 2;
-padding-top: 275px;
-margin-top: 10px;
+background-image: url(../assets/images/images/vege_mid.jpg);
+width: 100%;
+background-size: cover;
+background-position: center center;
+}
 
+.group3 h2{
+line-height: 1.5;
+margin-bottom: 0.5em;
+margin-top: 0;
+text-decoration-color: white;
 }
 
 .group2{
     grid-column-start: 3;
-    grid-column-end: 4;
-    
+    grid-column-end: 4;    
 }
 
+.heading{
 
+text-align: center;
+margin-top: 100px;
+}
+
+.heading subheader{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    color: #82ae46;
+}
+
+.heading h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.head2{
+    margin-bottom: 1.5rem;
+}
+
+.heading p{
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 10px;
+width: 50vw;
+}
+
+.grid img{
+    width: 30vw;
+    height: 50vh;
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .review-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .review-cont p1{
+    text-align: center;
+    max-width: 890px;
+    font-size: 15px;
+    line-height: 30.6px;
+  }
+
+  .review-cont p2{
+    text-align: center;
+    max-width: 890px;
+    font-size: 18px;
+    line-height: 30.6px;
+    text-transform: uppercase;
+  }
+
+  .review-cont span{
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .swiper mySwipper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px;
+  }
+
+  .circular-image{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin-bottom: 30px;
+  }
+
+  .circular-image img{
+    width: 100%;
+    height: auto;
+  }
+
+  .class{
+    
+  }
 

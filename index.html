@@ -8,7 +8,10 @@
     <link href= "https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap" > 
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
 </head>
+
 <body>
    <nav>
     <img id="logo" src="./assets/logos/logo-no-background.png" alt="logo">
@@ -52,15 +55,14 @@
 
 <div class="grid-container">
     <div class="group1">
-             <img  src="./assets/images/images/fruits.jpg" alt="berry"> 
-        <h2 class="write">
-            <a href="">FRUITS</a>
-        </h2>       
+             <img  src="./assets/images/images/fruits.jpg" alt="berry">        
           
     </div>
 
     <div class="group3">
-        <img  src="./assets/images/images/vege_mid.jpg" alt="midvege">
+        <h2>Vegetables</h2>
+        <p>Protect the health of every home</p>
+        <a href="">Shop now</a>
     </div>
 
     <div class="group2">
@@ -79,7 +81,95 @@
    </section>
 
    <section id="products">
+    <div class="heading">
+        <span class="subheader">Featured Products</span>
+        <h2 class="head2">Our Products</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    </div>
+
+    <div class="grid">
+        <div><img src="./assets/images/images/bell_pepper.jpg" alt="pepper"></div>
+        <div><img src="./assets/images/images/cabbages.jpg" alt="cab"></div>
+        <div><img src="./assets/images/images/carrots.jpg" alt="carrots"></div>
+        <div><img src="./assets/images/images/tomatoes.jpg" alt="toma"></div>
+        <div><img src="./assets/images/images/strawberry.jpg" alt="straw"></div>
+        <div><img src="./assets/images/images/peas.jpg" alt="peas"></div>
+        <div><img src="./assets/images/images/potatoes.jpg" alt="potatoes"></div>
+        <div><img src="./assets/images/images/botttles.jpg" alt="juice"></div>
+    </div>
+   </section>
+
+   <section id="our reviews">
+    <div class="heading">
+        <span class="subheader">Testimony</span>
+        <h2 class="head2">Our satisfied customer says</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div class="review-cont">
+            <div class="circular-image">
+            <img src="./assets/images/images/review1.webp" alt="1">
+           </div>
+           <p id="p1">Far far away behind the word mountains,far from the countries Vokalia and Consonantia there live the blind text.</p>
+           <p id="p2">Garetth Smith</p>
+           <span>System analyst</span>
+       </div>
+        </div>
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div class="review-cont">
+            <div class="circular-image">
+                <img src="./assets/images/images/review2.webp" alt="2">
+           </div>            
+           <p id="p1">Far far away behind the word mountains,far from the countries Vokalia and Consonantia there live the blind text.</p>
+           <p id="p2">Garetth Smith</p>
+           <span>managind director</span>
+       </div>
+        </div>
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div class="review-cont">
+            <div class="circular-image">
+                <img src="./assets/images/images/review3.webp" alt="3">
+           </div>            
+           <p id="p1">Far far away behind the word mountains,far from the countries Vokalia and Consonantia there live the blind text.</p>
+           <p id="p2">Garetth Smith</p>
+           <span>managind director</span>
+       </div>
+        </div>
+    </div>
+      
+</div>
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+   </section>
+
+   <section id="footer">
+    <div class="foot">
+        <h2>Vegefoods</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <div>
+            <i class="fa-brands fa-facebook" style="color: #071fcf;"></i>
+            <i class="fa-brands fa-twitter" style="color: #0c45a1;"></i>
+            <i class="fa-brands fa-instagram" style="color: #450679;"></i>
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
 
    </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
