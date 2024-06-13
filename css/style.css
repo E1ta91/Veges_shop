@@ -15,6 +15,31 @@ body{
       font-style: normal;
     }
 
+    .lora{
+      font-family: "Lora", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 20px;
+      color: #AA9903;
+    }
+
+    .poppins-regular {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 15px;
+      color: rgb(128, 128, 128);
+    }
+    
+    .poppins-semibold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 40px;
+    }
+    
+
 header span{
   font-size: 60px;
 }
@@ -96,7 +121,7 @@ header{
 }
 
 #hero-overlay p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .view-button{
@@ -205,7 +230,10 @@ text-decoration-color: white;
 text-align: center;
 margin-top: 100px;
 margin-bottom: 60px;
+row-gap: 5px;
 }
+
+
 
 .heading subheader{
     font-size: 18px;
@@ -273,9 +301,13 @@ body {
     align-items: center;
     flex-direction: column;
     margin-bottom: 50px;
+    /* background-color: #f1f1f3;
+    background-size: cover; */
+    width: 100vw;
+    height: 70vh;
   }
 
-  .review-cont p1{
+  /* .review-cont p1{
     text-align: center;
     max-width: 890px;
     font-size: 15px;
@@ -288,7 +320,7 @@ body {
     font-size: 18px;
     line-height: 30.6px;
     text-transform: uppercase;
-  }
+  } */
 
   .review-cont span{
     font-size: 12px;
@@ -300,16 +332,17 @@ body {
     width: 120px;
     height: 120px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 60%;
     border: 5px solid red;
     margin-bottom: 30px;
+    margin-top: 40px;
   }
-
   .circular-image img{
       width: 100%;
       height: auto;
     }
 
+  
 #footer{
   display: flex;
   flex-direction: column;
@@ -317,7 +350,8 @@ body {
   margin-top: 50px;
   background-color: #AA9903;
  width: 100vw;
- height: 40vh;
+ height: 60vh;
+ 
 }
 
 #para{
@@ -371,6 +405,7 @@ body {
 
 .product-image{
   position: relative;
+ 
 }
 
 .product-image h2{
@@ -380,7 +415,44 @@ body {
   border-radius: 15px;
 }
 
-.swiper-wrapper{
-  background-color: #F5F4F7;
+.subscribe{
+  display: flex;
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
+.form{
+  width: 100%;
+  background-color: aliceblue;
+  background-size: cover;
+}
+
+.form .form-items{
+  display: flex;
+  position: relative;
+    margin-bottom: 0;
+    border: none;
+    background: #fff;
+}
+
+.form .form-items input{
+  background: #fff !important;
+    border: 1px solid transparent;
+    color: black !important;
+    font-size: 14px;
+    font-weight: 300;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.form-control{
+  height: 52px !important;
+  box-shadow: none !important;
+  display: block;
+  width: 100%;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}

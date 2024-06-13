@@ -6,8 +6,17 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+  
