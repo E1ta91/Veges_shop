@@ -156,6 +156,7 @@ button :hover {
 .icons h3 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   text-align: center;
   row-gap: 20px;
@@ -163,6 +164,9 @@ button :hover {
 
 #text{
   font-weight: 200;
+  font-size: 12px;
+  text-align: center;
+  color: #7F7F7F;
 }
 
 .icons span{
